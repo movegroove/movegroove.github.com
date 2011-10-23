@@ -19,3 +19,8 @@
 	width: 300px;
 	margin: 60px 30px 0;	
 }
+#form1 { width: 100%; overflow:hidden;}
+#form1 header { display: none;}
+#form1 ul {list-style: none; margin-left:0; margin-bottom: 10px;}
+#form1 ul li {float:left;}
+#form1 ul li.buttons {margin-left: 5px;}
