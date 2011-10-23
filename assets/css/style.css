@@ -7,7 +7,7 @@
     background: transparent url("../img/phone-display-cropped.png") no-repeat top right;
     min-height:340px;
     margin-bottom: 0;
-	margin-right: 30px;
+	margin-right: 0px;
 }
 .about .hero-unit { min-height: 340px; }
 .about .hero-unit.data {
