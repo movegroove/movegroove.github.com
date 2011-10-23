@@ -24,3 +24,5 @@
 #form1 ul {list-style: none; margin-left:0; margin-bottom: 10px;}
 #form1 ul li {float:left;}
 #form1 ul li.buttons {margin-left: 5px;}
+
+.row.social { text-align: center;}
