@@ -1,12 +1,19 @@
 .brand img {
 	height: 20px;
 }
-.hero-unit {
+.index .hero-unit {
 	//position: absolute;
 	//top: 0;
     background: transparent url("../img/phone-display-cropped.png") no-repeat top right;
     min-height:340px;
     margin-bottom: 0;
+}
+.about .hero-unit { min-height: 340px; }
+.about .hero-unit.data {
+	background: transparent url("../img/data.png") no-repeat right bottom;
+}
+.about .hero-unit.quote {
+		
 }
 .hero-unit-copy {
 	width: 300px;

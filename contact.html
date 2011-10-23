@@ -58,7 +58,7 @@
 
 
 
-    <body class="index">
+    <body class="contact">
 
 
 
@@ -72,11 +72,11 @@
 
                     <ul class="nav">
 
-                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
 
                         <li><a href="about.html">About</a></li>
 
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="#">Contact</a></li>
 
                     </ul>
 
@@ -90,52 +90,63 @@
 
         <div class="container">
 
-
-
-            <!-- Main hero unit for a primary marketing message or call to action -->
-
-            <div class="hero-unit">
-
-                <h1>Your new soundtrack.</h1>
-				<div class="hero-unit-copy">
-	                <p>Whether you're walking, running or biking, you need the best music for the situation.</p>
-	                <p>With MoveGroove, you no longer need to worry about making that perfect playlist.</p>
-	                <br/>
-    	            <p><a href="about.html" class="btn primary large">Learn more &raquo;</a></p>
-                </div>
-               
-            </div>
-
-
-
             <!-- Example row of columns -->
 
             <div class="row">
 
                 <div class="span6">
 
-                    <h2>Role reversal.</h2>
-
-                    <h4>Your music listens to you.</h4>
-                    <p>A high-performance algorithm analyses your activity level and intelligently selects an appropriate song to keep you <em>in the zone</em>.</p>
-
-                </div>
-
-                <div class="span5">
-
-                    <h2>MG Tracks.</h2>
-
-                    <p>Work out to songs specially designed to change intensity as you do.</p>
-                    
-                    <p>If you really need to have Rocky on your playlist, give MoveGroove access your existing music library. It'll do all the work.</p>
+                    <h2>Return address?</h2>
+					<h4>Get updates on MoveGroove.</h4>
+                    <form class="form-stacked" action=​"submit.php" method=​"post">​
+						<label>I want to groove!</label>
+						<input id="email" type="text" name="email" value="">
+						
+						<input class="btn primary" type="submit" value="Sign up!">
+					</form>
 
                 </div>
 
                 <div class="span5">
 
-                    <h2>Get it now.</h2>
+                    <h2>Follow us on Twitter.</h2>
 
-                    <p>Okay, it's not quite ready yet, but get in touch! You'll be the first to know.</p>
+                    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+					<script>
+					new TWTR.Widget({
+					  version: 2,
+					  type: 'profile',
+					  rpp: 4,
+					  interval: 30000,
+					  width: 250,
+					  height: 300,
+					  theme: {
+					    shell: {
+					      background: '#333333',
+					      color: '#ffffff'
+					    },
+					    tweets: {
+					      background: '#ffffff',
+					      color: '#000000',
+					      links: '#eb8507'
+					    }
+					  },
+					  features: {
+					    scrollbar: false,
+					    loop: false,
+					    live: false,
+					    behavior: 'all'
+					  }
+					}).render().setUser('movegrooveapp').start();
+					</script>
+
+                </div>
+
+                <div class="span5">
+
+                    <h2>Spread the word.</h2>
+
+                    <p></p>
                     
                     <span class='st_twitter_hcount' displayText='Tweet'></span><span class='st_reddit_hcount' displayText='Reddit'></span><span class='st_fblike_hcount' ></span><span class='st_plusone_hcount' ></span>
 
