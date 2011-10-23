@@ -7,6 +7,7 @@
     background: transparent url("../img/phone-display-cropped.png") no-repeat top right;
     min-height:340px;
     margin-bottom: 0;
+	margin-right: 30px;
 }
 .about .hero-unit { min-height: 340px; }
 .about .hero-unit.data {
@@ -21,8 +22,8 @@
 }
 #form1 { width: 100%; overflow:hidden;}
 #form1 header { display: none;}
-#form1 ul {list-style: none; margin-left:0; margin-bottom: 10px;}
+#form1 ul {list-style: none; margin-left:-19px; margin-bottom: 10px;}
 #form1 ul li {float:left;}
 #form1 ul li.buttons {margin-left: 5px;}
 
-.row.social { text-align: center;}
+.row.social { text-align: left; padding:30px 0px 0px 40px; }
