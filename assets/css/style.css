@@ -12,17 +12,15 @@
 .about .hero-unit.data {
 	background: transparent url("../img/data.png") no-repeat right bottom;
 }
-.about .hero-unit.quote {
-		
-}
 .hero-unit-copy {
 	width: 300px;
-	margin: 60px 30px 0;	
+	margin: 20px 0px 0;	
 }
-#form1 { width: 100%; overflow:hidden;}
+#form1 { width: 100%; overflow:hidden; padding-left: 0;}
 #form1 header { display: none;}
 #form1 ul {list-style: none; margin-left:0; margin-bottom: 10px;}
 #form1 ul li {float:left;}
 #form1 ul li.buttons {margin-left: 5px;}
+#form1 #Field1 {width: 190px;}
 
-.row.social { text-align: center;}
+.row.social { margin-left: 0px; padding-top:10px;}
