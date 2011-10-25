@@ -13,6 +13,9 @@
 .about .hero-unit.data {
 	background: transparent url("../img/data.png") no-repeat right bottom;
 }
+.hero-unit h2{
+	width: 360px;	
+}
 .hero-unit-copy {
 	width: 300px;
 	margin: 20px 0px 0;	
